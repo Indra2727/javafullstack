@@ -17,5 +17,10 @@ public class ForLoopEx {
                 System.out.println(i + " " + j);
             }
         }
+        //Enhance for loop
+        int a[] ={5,10,15,20,25,30};
+        for (int no:a){
+            System.out.println(no);
+        }
     }
 }
