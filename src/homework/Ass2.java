@@ -26,8 +26,8 @@ public class Ass2 {
         if (a < b && a < c)
             System.out.println(a + "  is Smallest Number");
         else if (b < a && b < c)
-            System.out.println(a + "  is Smallest Number");
+            System.out.println(b + "  is Smallest Number");
         else
-            System.out.println(a + "  is Smallest Number");
+            System.out.println(c + "  is Smallest Number");
     }
 }
