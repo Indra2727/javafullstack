@@ -4,43 +4,43 @@ public class MonthEx {
     public static void main(String[] args){
         Scanner month = new Scanner(System.in);
         System.out.println("Enter Input");
-        int ch = month.nextInt();
+        String ch = month.next();
 
         switch (ch){
-            case 1:
+            case "Jan":
                 System.out.println("January");
                 break;
-            case 2:
+            case "Feb":
                 System.out.println("February");
                 break;
-            case 3:
+            case "Mar":
                 System.out.println("March");
                 break;
-            case 4:
+            case "Apr":
                 System.out.println("April");
                 break;
-            case 5:
+            case "May":
                 System.out.println("May");
                 break;
-            case 6:
+            case "Jun":
                 System.out.println("June");
                 break;
-            case 7:
+            case "Jul":
                 System.out.println("July");
                 break;
-            case 8:
+            case "Aug":
                 System.out.println("August");
                 break;
-            case 9:
+            case "Sep":
                 System.out.println("September");
                 break;
-            case 10:
+            case "Oct":
                 System.out.println("October");
                 break;
-            case 11:
+            case "Nov":
                 System.out.println("November");
                 break;
-            case 12:
+            case "Dec":
                 System.out.println("December");
                 break;
             default:
