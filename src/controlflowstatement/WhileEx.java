@@ -7,5 +7,6 @@ public class WhileEx {
             System.out.println("Hello");
             i++;
         }
+
     }
 }
