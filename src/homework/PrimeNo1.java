@@ -3,7 +3,7 @@ package homework;
 
 public class PrimeNo1 {
     public static void main(String[] args) {
-        int no = 15;
+        int no = 17;
         boolean flag = false;
 
         for (int i = 2; i < no / 2; i++) {
@@ -14,11 +14,7 @@ public class PrimeNo1 {
                 flag = true;
             }
         }
-        if (flag) {
-            System.out.println("No. is Prime");
-        } else {
-            System.out.println("No. is not Prime");
-        }
+        System.out.println(flag? "No. is Prime" : "No. is not prime");
     }
 
 }
