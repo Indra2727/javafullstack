@@ -1,4 +1,4 @@
-package arrays;
+package homework.array;
 
 public class DuplicateElement {
     public static void main(String[] args) {
