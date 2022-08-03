@@ -21,7 +21,7 @@ public class Person {
 }
 class PersonImpl{
     public static void main(String[] args){
-        Person p1=new Person(5,"zen");
+        Person p1=new Person(5,"jitu");
         p1.display();
         Person p2=new Person();
         Person p3=new Person("John");
