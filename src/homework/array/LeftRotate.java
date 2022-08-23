@@ -9,7 +9,7 @@ public class LeftRotate {
         int n= sc.nextInt();
         System.out.println("Enter Original Elements");
         for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i] + " ");
+            System.out.print(a[i] + " ");
         }
         for (int i = 0; i < n; i++) {
             int j, first;
