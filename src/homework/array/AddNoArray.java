@@ -1,4 +1,4 @@
-package homework;
+package homework.array;
 
 public class AddNoArray {
     public static void main(String[] args) {
