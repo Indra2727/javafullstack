@@ -1,10 +1,10 @@
 package collection;
 
-public class GenericsDemo<T> {
+public class GenericsDemo<E> {
 
-    T t;
+    E t;
 
-    T  getValue(T t){
+    E  getValue(E t){
         this.t=t;
         return t;
     }
